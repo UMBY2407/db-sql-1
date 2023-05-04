@@ -1,0 +1,9 @@
+select * from teachers
+select head_of_department from departments
+select * from degrees where level = 'magistrale'
+select * from students where name = 'Marco'
+select * from courses where cfu > 12
+select * from courses where cfu > 10 OR cfu < 5
+select * from courses where year = 1 AND period = 'I semestre'
+select * from courses where website is NULL
+select* from teachers where phone is not NULL
